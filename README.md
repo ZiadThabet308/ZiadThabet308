@@ -43,10 +43,10 @@
 
 ---
 
-🎬 **Fun GIF**
+🎬 **Programming**
 
 <p align="center">  
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUyc2ZscXg2Zjg2eXk0c3B3cGhkNzl2eWRpYm9ub2pkcnZtNGppbTlmZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/78XCFBGOlS6keY1Bil/giphy.gif" width="600" />  
+  <img src="https://media.giphy.com/media/lP8xu5t2DLGG045H8F/giphy.gif" width="600" />  
 </p>  
 
 ---
