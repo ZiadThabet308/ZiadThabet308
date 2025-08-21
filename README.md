@@ -1,197 +1,152 @@
-<!-- ========================= ULTRA WAR-ZONE PROFILE (FINAL) ========================= -->
-<!-- انسخ الملف دا كامل في README.md في ريبُو باسم: ZiadThabet308 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 1200 360" width="1200" height="360" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Ziad Thabet — War Style Banner">
+  <defs>
+    <!-- Animated gradient -->
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#ff2d55">
+        <animate attributeName="stop-color" dur="6s" values="#ff2d55;#ff9a00;#00e5ff;#9b5cff;#ff2d55" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00e5ff">
+        <animate attributeName="stop-color" dur="6s" values="#00e5ff;#9bff6a;#ff2d55;#9b5cff;#00e5ff" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
 
-<!-- ================= HEADER: NEON GLITCH EXPLOSION SVG ================= -->
-<p align="center">
-  <!-- عرض SVG مصنع مخصوص: نيـون + غليتش + دخان + انفجار -->
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360" role="img" aria-label="Ziad Thabet — WAR THEME">
-    <defs>
-      <!-- animated gradient -->
-      <linearGradient id="g1" x1="0" x2="1">
-        <stop offset="0%" stop-color="#ff2d55">
-          <animate attributeName="stop-color" dur="6s" values="#ff2d55;#ff9a00;#00e5ff;#9b5cff;#ff2d55" repeatCount="indefinite"/>
-        </stop>
-        <stop offset="100%" stop-color="#00e5ff">
-          <animate attributeName="stop-color" dur="6s" values="#00e5ff;#9bff6a;#ff2d55;#9b5cff;#00e5ff" repeatCount="indefinite"/>
-        </stop>
-      </linearGradient>
+    <!-- Neon blur filter -->
+    <filter id="neon" x="-300%" y="-300%" width="600%" height="600%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-      <!-- neon glow filter -->
-      <filter id="neon" x="-200%" y="-200%" width="400%" height="400%">
-        <feGaussianBlur stdDeviation="6" result="b"/>
-        <feMerge>
-          <feMergeNode in="b"/>
-          <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-      </filter>
+    <!-- Smoke / cloud filter -->
+    <filter id="smoke" x="-50%" y="-50%" width="200%" height="200%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.008" numOctaves="3" seed="7" result="turb"/>
+      <feDisplacementMap in="SourceGraphic" in2="turb" scale="12" xChannelSelector="R" yChannelSelector="G"/>
+      <feGaussianBlur stdDeviation="8"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.35 0.7 1"/>
+      </feComponentTransfer>
+    </filter>
 
-      <!-- smoke using turbulence -->
-      <filter id="smoke">
-        <feTurbulence baseFrequency="0.012" numOctaves="3" seed="8" result="t"/>
-        <feDisplacementMap in="SourceGraphic" in2="t" scale="20"/>
-        <feGaussianBlur stdDeviation="10"/>
-        <feComponentTransfer>
-          <feFuncA type="table" tableValues="0 0.35 0.6 0.9"/>
-        </feComponentTransfer>
-      </filter>
+    <!-- Glitch displacement -->
+    <filter id="glitch" x="-50%" y="-50%" width="200%" height="200%">
+      <feTurbulence baseFrequency="0.03" numOctaves="1" seed="4" result="noise"/>
+      <feDisplacementMap in="SourceGraphic" in2="noise" scale="6">
+        <animate attributeName="scale" dur="2.4s" values="0;8;0;6;0" repeatCount="indefinite"/>
+      </feDisplacementMap>
+    </filter>
 
-      <!-- glitch displacement -->
-      <filter id="glitch">
-        <feTurbulence baseFrequency="0.02" numOctaves="1" seed="3" result="n"/>
-        <feDisplacementMap in="SourceGraphic" in2="n" scale="6">
-          <animate attributeName="scale" dur="2.2s" values="0;8;0;6;0" repeatCount="indefinite"/>
-        </feDisplacementMap>
-      </filter>
+    <!-- Scanline pattern -->
+    <pattern id="scan" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="2" fill="rgba(255,255,255,0.03)"/>
+    </pattern>
 
-      <!-- scanlines -->
-      <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
-        <rect width="4" height="2" fill="rgba(255,255,255,0.03)"/>
-      </pattern>
-    </defs>
+    <!-- soft vignette -->
+    <radialGradient id="v" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.6)"/>
+    </radialGradient>
+  </defs>
 
-    <!-- background dark rectangle -->
-    <rect width="1200" height="360" rx="20" fill="#04060a"/>
+  <!-- Background -->
+  <rect width="1200" height="360" fill="#020306"/>
 
-    <!-- layered animated explosion blobs -->
-    <g transform="translate(100,80)">
-      <g opacity="0.6" filter="url(#smoke)">
-        <circle cx="480" cy="80" r="36" fill="url(#g1)">
-          <animate attributeName="r" dur="6s" values="24;48;30;42;24" repeatCount="indefinite"/>
-          <animate attributeName="opacity" dur="6s" values="0.6;0.95;0.5;0.8;0.6" repeatCount="indefinite"/>
-        </circle>
-      </g>
-      <g opacity="0.35" filter="url(#smoke)">
-        <circle cx="420" cy="120" r="24" fill="#ff9a00">
-          <animate attributeName="r" dur="5s" values="18;34;22;30;18" repeatCount="indefinite"/>
-        </circle>
-      </g>
-    </g>
+  <!-- Vignette -->
+  <rect width="1200" height="360" fill="url(#v)" opacity="0.6"/>
 
-    <!-- main neon title with glitch group -->
-    <g filter="url(#glitch)">
-      <text x="50%" y="40%" text-anchor="middle" font-family="Poppins, Inter, system-ui, sans-serif" font-size="56" font-weight="900" fill="url(#g1)" style="letter-spacing:2px">
-        Ziad Thabet
-      </text>
-    </g>
+  <!-- Explosion blobs (smoke + color) -->
+  <g transform="translate(220,40)" opacity="0.55" filter="url(#smoke)">
+    <circle cx="420" cy="120" r="28" fill="url(#g)">
+      <animate attributeName="r" dur="7s" values="18;52;32;46;18" repeatCount="indefinite"/>
+      <animate attributeName="opacity" dur="7s" values="0.4;0.95;0.45;0.8;0.4" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="360" cy="150" r="22" fill="#ff9a00">
+      <animate attributeName="r" dur="5.8s" values="14;36;20;30;14" repeatCount="indefinite"/>
+    </circle>
+  </g>
 
-    <!-- subtitle / tagline -->
-    <text x="50%" y="58%" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="18" fill="#dfefff" opacity="0.95">
-      <tspan>Welcome to my World</tspan>
-      <tspan dx="12" fill="#ffcc66"> • </tspan>
-      <tspan>Programmer is coming</tspan>
-      <animate attributeName="opacity" dur="2.4s" values="0.6;1;0.6" repeatCount="indefinite"/>
+  <!-- Main framed panel -->
+  <g transform="translate(20,12)">
+    <rect x="8" y="8" width="1164" height="328" rx="18" ry="18" fill="rgba(255,255,255,0.02)" stroke="url(#g)" stroke-width="1.2" filter="url(#neon)"/>
+  </g>
+
+  <!-- Glitched main title -->
+  <g filter="url(#glitch)">
+    <text x="50%" y="36%" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="56" font-weight="800" fill="url(#g)" style="letter-spacing:2px">
+      Ziad Thabet
     </text>
+  </g>
 
-    <!-- skills strip -->
-    <rect x="360" y="220" width="480" height="38" rx="20" fill="rgba(255,255,255,0.02)" stroke="url(#g1)" stroke-width="1.2" filter="url(#neon)"/>
-    <text x="50%" y="245" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="14" fill="#9ee7ff">Html • Css • Js</text>
+  <!-- subtle duplicate layers for neon glow -->
+  <text x="50%" y="36%" text-anchor="middle" font-family="Verdana, Arial, sans-serif" font-size="56" font-weight="800" fill="none" stroke="#ffffff22" stroke-width="1" style="filter:url(#neon); pointer-events:none;">
+    Ziad Thabet
+  </text>
 
-    <!-- matrix rain overlay (subtle) -->
-    <g opacity="0.06" font-family="monospace" font-size="12" fill="#00ff88">
-      <text x="10" y="40">
-        <tspan>▮▯▮▯▯▮▯▯▮▯▮▯▮</tspan>
-        <animateTransform attributeName="transform" type="translate" from="0 -20" to="0 260" dur="6s" repeatCount="indefinite"/>
-      </text>
-      <text x="1160" y="40">
-        <tspan>▯▮▯▯▮▮▯▮▯▯▮▯▮</tspan>
-        <animateTransform attributeName="transform" type="translate" from="0 -40" to="0 260" dur="8s" repeatCount="indefinite"/>
-      </text>
+  <!-- Tagline with flicker -->
+  <text x="50%" y="54%" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="18" fill="#e7f6ff" opacity="0.95">
+    <tspan>Welcome to my World</tspan>
+    <tspan dx="12" fill="#ffcc66"> • </tspan>
+    <tspan>Programmer is coming</tspan>
+    <animate attributeName="opacity" dur="2.2s" values="0.6;1;0.6" repeatCount="indefinite"/>
+  </text>
+
+  <!-- Tech strip -->
+  <g transform="translate(360,220)">
+    <rect x="0" y="0" width="480" height="38" rx="20" ry="20" fill="rgba(255,255,255,0.02)" stroke="url(#g)" stroke-width="1" filter="url(#neon)"/>
+    <text x="240" y="25" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="14" fill="#9ee7ff">Html • Css • Js</text>
+  </g>
+
+  <!-- matrix rain accents (subtle) -->
+  <g opacity="0.06" font-family="monospace" font-size="11" fill="#00ff88">
+    <text x="22" y="38">▮▯▮▯▯▮▯▯▮▯▮▯▮
+      <animateTransform attributeName="transform" type="translate" from="0 -30" to="0 260" dur="6s" repeatCount="indefinite"/>
+    </text>
+    <text x="1160" y="18">▯▮▯▯▮▮▯▮▯▯▮▯▮
+      <animateTransform attributeName="transform" type="translate" from="0 -40" to="0 260" dur="8s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- ASCII small signature block bottom-left -->
+  <g transform="translate(38,260)">
+    <rect x="0" y="0" width="260" height="74" rx="8" fill="rgba(0,0,0,0.45)" stroke="#111" />
+    <text x="12" y="22" font-family="Courier New, monospace" font-size="11" fill="#9ff6ff" font-weight="700">██╗░░██╗ ██╗</text>
+    <text x="12" y="36" font-family="Courier New, monospace" font-size="11" fill="#9ff6ff" font-weight="700">Welcome — War Style Banner</text>
+    <text x="12" y="52" font-family="Courier New, monospace" font-size="10" fill="#dfefff">Frontend • Html • Css • Js</text>
+  </g>
+
+  <!-- center explosion gif-like pulse (vector) -->
+  <g transform="translate(540,40)" opacity="0.18">
+    <circle cx="120" cy="120" r="60" fill="url(#g)">
+      <animate attributeName="r" dur="4.4s" values="40;80;50;70;40" repeatCount="indefinite"/>
+      <animate attributeName="opacity" dur="4.4s" values="0.12;0.42;0.12;0.32;0.12" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- top-right hacker image placeholder (use an external gif if you want) -->
+  <g transform="translate(980,18)">
+    <rect x="0" y="0" width="160" height="96" rx="8" fill="#06070a" stroke="#0b0b0b"/>
+    <!-- small loading bars -->
+    <g transform="translate(12,18)">
+      <rect x="0" y="0" width="18" height="6" rx="3" fill="#ff2d55">
+        <animate attributeName="width" values="6;18;8;16;6" dur="2.2s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="0" y="14" width="12" height="6" rx="3" fill="#00e5ff">
+        <animate attributeName="width" values="4;12;6;10;4" dur="2.6s" repeatCount="indefinite"/>
+      </rect>
+      <rect x="0" y="28" width="8" height="6" rx="3" fill="#9b5cff">
+        <animate attributeName="width" values="2;8;4;7;2" dur="2s" repeatCount="indefinite"/>
+      </rect>
     </g>
-  </svg>
-</p>
+  </g>
 
-<!-- ================= BADGES ================= -->
-<p align="center">
-  <img src="https://img.shields.io/badge/STYLE-WAR%20NEON-critical?style=for-the-badge&logo=ghost" alt="style"/>
-  <img src="https://img.shields.io/badge/FOCUS-FRONTEND-00e5ff?style=for-the-badge" alt="focus"/>
-  <img src="https://komarev.com/ghpvc/?username=ZiadThabet308&label=VISITS&style=for-the-badge" alt="visits"/>
-</p>
+  <!-- subtle scanlines covering everything -->
+  <rect x="0" y="0" width="1200" height="360" fill="url(#scan)" opacity="0.12"/>
 
-<!-- ================= ASCII WAR LOGO ================= -->
-<p align="center">
-<pre style="line-height:0.7;margin:0;padding:6px;background:#020204;border-radius:10px;color:#9ff6ff;font-weight:700;">
-
-</pre>
-</p>
-
-<!-- ================= ABOUT (glass block) ================= -->
-<div align="center">
-  <table style="background: rgba(255,255,255,0.03); border-radius:14px; padding:14px; width:90%; max-width:980px;">
-    <tr>
-      <td style="padding:12px; vertical-align:middle;">
-        <h3 style="margin:4px 0 6px 0;">⚔️ About — الحرب الفنية</h3>
-        <p style="margin:0;color:#dfeeff;">
-          أنا <b>Ziad Thabet</b>. أعمل Frontend — بحوّل أفكار مجنونة لمكونات UI بتتحرك وتصفع العين.  
-          <i>Welcome to my World — Programmer is coming.</i>
-        </p>
-      </td>
-      <td style="width:180px; text-align:center;">
-        <img src="https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif" alt="explosion" width="160" style="border-radius:10px;"/>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<!-- ================= STACK (weapons) ================= -->
-<h3 align="center">🛠️ Armory — Tech</h3>
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode" alt="skills" />
-</p>
-
-<!-- ================= DYNAMIC STATS (neon) ================= -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ZiadThabet308&show_icons=true&theme=dracula&hide_border=true&count_private=true" alt="stats" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZiadThabet308&layout=compact&theme=dracula&hide_border=true" alt="langs" height="150"/>
-</p>
-
-<!-- ================= SNAKE (auto-generated asset) ================= -->
-<p align="center">
-  <!-- لو عملت GitHub Action لانتاج الـ snake SVG هيظهر هنا -->
-  <img src="output/github-contribution-grid-snake.svg" alt="snake contributions" style="max-width:720px;width:100%;border-radius:8px;"/>
-</p>
-
-<!-- ================= HIGHLIGHTS CARDS ================= -->
-<div align="center">
-  <table style="width:100%;max-width:980px;">
-    <tr>
-      <td style="text-align:center;padding:12px;">
-        <div style="background:linear-gradient(135deg, rgba(255,45,85,0.08), rgba(0,229,255,0.04));padding:18px;border-radius:12px;">
-          <h4 style="margin:6px 0;">🎮 Micro-UIs</h4>
-          <p style="margin:4px 0;color:#cfefff;">Neon HUDs — Glass — Motion</p>
-        </div>
-      </td>
-      <td style="text-align:center;padding:12px;">
-        <div style="background:linear-gradient(135deg, rgba(155,95,255,0.06), rgba(255,154,0,0.03));padding:18px;border-radius:12px;">
-          <h4 style="margin:6px 0;">⚡ Performance</h4>
-          <p style="margin:4px 0;color:#cfefff;">Clean & lightning fast</p>
-        </div>
-      </td>
-      <td style="text-align:center;padding:12px;">
-        <div style="background:linear-gradient(135deg, rgba(155,255,106,0.06), rgba(0,229,255,0.03));padding:18px;border-radius:12px;">
-          <h4 style="margin:6px 0;">🧠 Craft</h4>
-          <p style="margin:4px 0;color:#cfefff;">Pixel-perfect details</p>
-        </div>
-      </td>
-    </tr>
-  </table>
-</div>
-
-<!-- ================= CTA / CONTACT (NUCLEAR BUTTON) ================= -->
-<p align="center">
-  <a href="https://github.com/ZiadThabet308" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/ENTER_THE_ARENA-Nuclear%20Contact-ff0055?style=for-the-badge&logo=github" alt="enter"/>
-  </a>
-</p>
-
-<!-- ================= FOOTER WAVE (neon) ================= -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=gradient" width="100%" alt="wave"/>
-</p>
-
-<!-- ================= NOTES: how to make it fully UNIQUE ================= -->
-<!--
-  1) للحظة "لا يوجد مثلها في الكون" فعلاً: لو عايز أحوّل ال SVG لبانر مخصص حرفيًا باسمك (خطوط مخصصة + أشكال يدوية) أقدر أرسلك ملف SVG واحد مفرود قابل للتعديل. 
-  2) لو عايز تأثير Snake حقيقي لازم تشغّل GitHub Action اللي يولّد output/github-contribution-grid-snake.svg (قلّي لو عايز أديك الـ workflow). 
-  3) لو حابب لون مختلف (Matrix green, Cyberpunk purple, Black-gold) أعدّل الـ gradients في نفس الملف فوراً.
-  4) انسخ الملف بالكامل وحطه في README.md. الصور/GIFs المضمنة موجودة من الإنترنت، تقدر تستبدل برابط GIF خاص لو عايز شيء أندر.
--->
+  <!-- small footer neon wave -->
+  <g transform="translate(0,320)">
+    <path d="M0 24 C150 4, 300 44, 450 24 C600 4, 750 44, 900 24 C1050 4, 1200 44, 1200 24 L1200 60 L0 60 Z" fill="url(#g)" opacity="0.06"/>
+  </g>
+</svg>
