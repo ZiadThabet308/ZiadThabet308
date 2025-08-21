@@ -1,43 +1,30 @@
 <p align="center">
-  <!-- Hero Animation GIF -->
-  <img src="https://raw.githubusercontent.com/ZiadThabet308/assets/main/hero-animation.gif" alt="Ziad Thabet Hero" width="100%">
-</p>
+  <svg width="100%" height="300" viewBox="0 0 1200 300">
+    <defs>
+      <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" style="stop-color:#00ffff;stop-opacity:1" />
+        <stop offset="50%" style="stop-color:#ff00ff;stop-opacity:1" />
+        <stop offset="100%" style="stop-color:#ffff00;stop-opacity:1" />
+      </linearGradient>
+      <filter id="glow">
+        <feGaussianBlur stdDeviation="4.5" result="blur"/>
+        <feMerge>
+          <feMergeNode in="blur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+    </defs>
 
-<h1 align="center">
-  <img src="https://svgshare.com/i/tH_.svg" alt="Ziad Thabet Neon" width="80%">
-</h1>
+    <text x="50%" y="50%" text-anchor="middle" font-size="60" font-family="monospace"
+          fill="url(#grad1)" filter="url(#glow)">
+      Ziad Thabet
+      <animate attributeName="y" values="150;140;150" dur="1s" repeatCount="indefinite"/>
+    </text>
 
-<h2 align="center" style="color:#0ff; text-shadow:0 0 20px #0ff;">
-  Welcome to my World
-</h2>
-
-<h3 align="center" style="color:#ff0; text-shadow:0 0 15px #ff0;">
-  Programmer is coming
-</h3>
-
-<p align="center">
-  <strong>المجالات:</strong> Html | Css | Js
-</p>
-
-<p align="center">
-  <!-- Particles / Sparks animation as GIF -->
-  <img src="https://raw.githubusercontent.com/ZiadThabet308/assets/main/particles.gif" alt="Particles Animation" width="90%">
-</p>
-
-<p align="center">
-  <!-- Badges for GitHub stats -->
-  <img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-</p>
-
----
-
-<p align="center">
-  <!-- Glitch Neon SVG Text -->
-  <img src="https://svgshare.com/i/tI_.svg" alt="Glitch Neon Effect" width="70%">
-</p>
-
-<p align="center" style="font-size: 18px; color:#fff; text-shadow: 0 0 10px #0ff, 0 0 20px #0ff;">
-  أكبر وأعظم README في تاريخ البشرية 🔥💥
+    <text x="50%" y="80%" text-anchor="middle" font-size="40" font-family="monospace"
+          fill="url(#grad1)" filter="url(#glow)">
+      Welcome to my World
+      <animate attributeName="x" values="600;590;600" dur="1s" repeatCount="indefinite"/>
+    </text>
+  </svg>
 </p>
