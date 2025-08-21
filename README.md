@@ -1,5 +1,5 @@
 <!-- ========== HEADER موجة فوق ========== -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0000,50:ff5500,100:000000&height=150&section=header&text=🔥+Ziad+Thabet+🔥&fontSize=50&fontColor=ffffff&fontAlignY=35&animation=twinkle"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff0000,50:ff5500,100:000000&height=150&section=header&text=🔥+Ziad+Thabet+🔥&fontSize=50&fontColor=ffffff&fontAlignY=35" />
 
 <!-- ========== Typing Animation ========== -->
 <p align="center">
@@ -19,7 +19,7 @@
 
 ## 🚀 Skills & Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode,figma,react" style="filter: drop-shadow(0 0 10px #ff0000); transition: transform 0.3s;" onmouseover="this.style.transform='scale(1.3)'" onmouseout="this.style.transform='scale(1)'" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode,figma,react" />
 </p>
 
 ---
@@ -41,31 +41,24 @@
 
 ## 🎬 Fun GIF
 <p align="center">
-  <img src="https://media.giphy.com/media/lP8xu5t2DLGG045H8F/giphy.gif" width="600" style="border-radius:20px; box-shadow: 0 0 30px #ff0000; animation: float 3s ease-in-out infinite;" />
+  <img src="https://media.giphy.com/media/lP8xu5t2DLGG045H8F/giphy.gif" width="600" style="border-radius:20px; box-shadow: 0 0 30px #ff0000;" />
 </p>
-
-<style>
-@keyframes float {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-15px); }
-}
-</style>
 
 ---
 
 ## 🌐 Connect with me
 <p align="center">
   <a href="https://github.com/ZiadThabet308">
-    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" style="filter: drop-shadow(0 0 10px #ff0000);"/>
+    <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/Portfolio-ff0000?style=for-the-badge&logo=react&logoColor=white" style="filter: drop-shadow(0 0 10px #ff5500);"/>
+    <img src="https://img.shields.io/badge/Portfolio-ff0000?style=for-the-badge&logo=react&logoColor=white"/>
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white" style="filter: drop-shadow(0 0 10px #1877F2);"/>
+    <img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white"/>
   </a>
   <a href="#">
-    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white" style="filter: drop-shadow(0 0 10px #7289DA);"/>
+    <img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"/>
   </a>
 </p>
 
@@ -74,4 +67,4 @@
 <p align="center" style="font-size:1.2em; text-shadow: 0 0 10px #ff0000;">⚡ "Code Hard, Dream Big, Break Limits" ⚡</p>
 
 <!-- ========== FOOTER موجة تحت ========== -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:ff5500,100:ff0000&height=150&section=footer&animation=twinkle"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:ff5500,100:ff0000&height=150&section=footer"/>
