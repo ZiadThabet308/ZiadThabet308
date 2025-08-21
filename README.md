@@ -26,6 +26,14 @@
 
 ---
 
+🎬 **Animated Graphic**
+
+<p align="center">
+  <img src="https://giphy.com/gifs/touchdesigner-partyonmarz-creativecoding-3xIyaNr6Q6kOOEJHyM" alt="Neon Creative Coding GIF" />
+</p>
+
+---
+
 📊 **GitHub Stats**
 
 <p align="center">  
@@ -39,14 +47,6 @@
 
 <p align="center">  
   <img src="https://streak-stats.demolab.com?user=ZiadThabet308&theme=highcontrast&fire=ff0000&ring=ff0000&currStreakLabel=ffffff&sideNums=ff0000" alt="GitHub Streak" />  
-</p>  
-
----
-
-🎬 **Fun GIF**
-
-<p align="center">  
-  <img src="https://media.giphy.com/media/lP8xu5t2DLGG045H8F/giphy.gif" width="600" />  
 </p>  
 
 ---
