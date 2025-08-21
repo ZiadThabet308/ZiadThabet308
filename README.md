@@ -1,9 +1,24 @@
-<!-- 🌊 HEADER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&text=🔥+Ziad+Thabet+🔥&fontAlign=50&fontAlignY=40&color=gradient&customColorList=0,2,2,5,30" width="100%"/>
 
-<h2 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=F70000&center=true&vCenter=true&width=600&lines=💥+Welcome+to+my+World+💥;🚀+Programmer+is+Coming+🚀;🔥+Frontend+Developer+🔥;⚡+Dream+Big%2C+Code+Hard+⚡" />
-</h2>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=180&text=🔥+Ziad+Thabet+🔥&fontAlign=50&fontAlignY=40&color=gradient&customColorList=0,2,2,5,30" width="100%"/>
+
+<h1 align="center">
+
+███████╗██╗░░░██╗██╗░█████╗░██████╗░
+██╔════╝██║░░░██║██║██╔══██╗██╔══██╗
+█████╗░░╚██╗░██╔╝██║██║░░██║██████╔╝
+██╔══╝░░░╚████╔╝░██║██║░░██║██╔═══╝░
+███████╗░░╚██╔╝░░██║╚█████╔╝██║░░░░░
+╚══════╝░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░░░░
+
+🔥 **Welcome to My World** 🔥  
+
+</h1>
+
+---
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&pause=1000&color=FF0000&width=600&lines=💥+Welcome+to+my+World+💥;🚀+Programmer+is+Coming+🚀;⚡+Dream+Big+%7C+Code+Hard+⚡" alt="Typing SVG" />
+</p>
 
 ---
 
@@ -44,7 +59,7 @@
 
 ---
 
-## 🎬 Matrix Hacker Mode  
+## 🎬 Hacker Mode  
 <p align="center">
   <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="600" />
 </p>
@@ -63,5 +78,5 @@
 
 ---
 
-<!-- 🌊 FOOTER -->
+<!-- 🌊 FOOTER موجة -->
 <img src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&color=gradient"/>
