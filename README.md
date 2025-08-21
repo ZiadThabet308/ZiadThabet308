@@ -1,82 +1,92 @@
+<!-- ========= WAR ZONE HEADER ========= -->
+<img src="https://capsule-render.vercel.app/api?type=waving&height=160&text=WAR%20ZONE%20:%20Ziad%20Thabet&fontAlign=50&fontAlignY=40&color=gradient&customColorList=0,2,30,2,0" width="100%"/>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&text=🔥+Ziad+Thabet+🔥&fontAlign=50&fontAlignY=40&color=gradient&customColorList=0,2,2,5,30" width="100%"/>
+<div align="center">
 
-<h1 align="center">
+```ansi
+██╗    ██╗ █████╗ ██████╗      ███████╗██╗  ██╗ █████╗ ██████╗ ███████╗
+██║    ██║██╔══██╗██╔══██╗     ██╔════╝██║  ██║██╔══██╗██╔══██╗██╔════╝
+██║ █╗ ██║███████║██████╔╝     ███████╗███████║███████║██████╔╝█████╗  
+██║███╗██║██╔══██║██╔══██╗     ╚════██║██╔══██║██╔══██║██╔══██╗██╔══╝  
+╚███╔███╔╝██║  ██║██║  ██║     ███████║██║  ██║██║  ██║██║  ██║███████╗
+ ╚══╝╚══╝ ╚═╝  ╚═╝╚═╝  ╚═╝     ╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝
 
-███████╗██╗░░░██╗██╗░█████╗░██████╗░
-██╔════╝██║░░░██║██║██╔══██╗██╔══██╗
-█████╗░░╚██╗░██╔╝██║██║░░██║██████╔╝
-██╔══╝░░░╚████╔╝░██║██║░░██║██╔═══╝░
-███████╗░░╚██╔╝░░██║╚█████╔╝██║░░░░░
-╚══════╝░░░╚═╝░░░╚═╝░╚════╝░╚═╝░░░░░
-
-🔥 **Welcome to My World** 🔥  
-
-</h1>
-
----
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&pause=1000&color=FF0000&width=600&lines=💥+Welcome+to+my+World+💥;🚀+Programmer+is+Coming+🚀;⚡+Dream+Big+%7C+Code+Hard+⚡" alt="Typing SVG" />
+</div><p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=28&pause=1100&center=true&vCenter=true&width=800&lines=💥+Welcome+to+my+World+%7C+WAR+MODE+ON;🚀+Programmer+is+Coming+%E2%9A%A1%EF%B8%8F;⚔%EF%B8%8F+HTML+%E2%80%A2+CSS+%E2%80%A2+JS+%7C+Battle+Stack;🔥+Own+the+Code.+Own+the+Battle." />
+</p><p align="center">
+  <img src="https://komarev.com/ghpvc/?username=ZiadThabet308&label=ENEMIES%20SCANNED&style=for-the-badge" />
+  <img src="https://img.shields.io/badge/STATUS-WAR%20READY-critical?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/ARENA-GitHub-black?style=for-the-badge&logo=github" />
 </p>
+---
+
+🧨 Battle Brief
+
+👑 Ziad Thabet
+
+🛡️ Frontline: HTML • CSS • JS
+
+🎯 Mission: Ship fast • look insane • break limits
+
+⚡ Motto: “No bugs survive the battlefield.”
+
+
 
 ---
 
-## ⚡ About Me  
-👑 I'm **Ziad Thabet**  
-💻 Frontend Dev (HTML • CSS • JS)  
-🎨 I love turning crazy ideas → real code  
-🚀 Code. Build. Dominate.  
+🗃️ Armory (Skills)
 
----
-
-## 🚀 Skills  
 <p align="center">
   <img src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode" />
 </p>
-
 ---
 
-## 📊 GitHub Stats  
+📡 War Telemetry
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ZiadThabet308&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117" height="165"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZiadThabet308&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=ZiadThabet308&show_icons=true&theme=radical&hide_border=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ZiadThabet308&layout=compact&theme=radical&hide_border=true" height="165"/>
 </p>
-
 ---
 
-## 🔥 Streaks  
+🔥 Combat Streak
+
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=ZiadThabet308&theme=highcontrast&hide_border=true&background=000000" />
+  <img src="https://streak-stats.demolab.com?user=ZiadThabet308&theme=highcontrast&hide_border=true" />
 </p>
-
 ---
 
-## 🐍 Snake Eating my Contributions  
+🐍 Battlefield Snake (eats your commits)
+
 <p align="center">
   <img src="https://github.com/ZiadThabet308/ZiadThabet308/blob/output/github-contribution-grid-snake.svg" />
 </p>
+---
+
+🎯 Killfeed (Latest Ops)
+
+⚔️ Frontend micro-UIs • neon effects • HUDs
+
+💣 Fast prototypes • zero fear • max style
+
+🛰️ Deploys under fire • CI-ready
+
+
 
 ---
 
-## 🎬 Hacker Mode  
+🧠 War Quote
+
 <p align="center">
-  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="600" />
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" />
 </p>
-
 ---
 
-## 🌐 Connect with me  
+🕶️ Hacker View
+
 <p align="center">
-  <a href="https://github.com/ZiadThabet308">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-  <a href="#">
-    <img src="https://img.shields.io/badge/Portfolio-FF0000?style=for-the-badge&logo=react&logoColor=white"/>
-  </a>
+  <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="640" />
 </p>
-
 ---
 
-<!-- 🌊 FOOTER موجة -->
-<img src="https://capsule-render.vercel.app/api?type=waving&height=150&section=footer&color=gradient"/>
+<p align="center">⚡ <b>Rule #1:</b> If it looks boring, it dies. ⚡</p><!-- ========= WAR ZONE FOOTER ========= --><img src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=gradient"/>
