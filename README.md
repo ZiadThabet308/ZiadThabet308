@@ -43,6 +43,8 @@
   <img src="https://media.giphy.com/media/lP8xu5t2DLGG045H8F/giphy.gif" width="600" style="border-radius:20px; box-shadow: 0 0 50px #ff0000, 0 0 80px #ff5500, 0 0 100px #ffff00;" />
   <br>
   <img src="https://media.giphy.com/media/3o6ZtaO9BZHcOjmErm/giphy.gif" width="400" style="border-radius:20px; box-shadow: 0 0 50px #ff00ff, 0 0 80px #ff5500, 0 0 100px #ffff00;" />
+  <br>
+  <img src="https://media.giphy.com/media/26xBwdIuRJiAIqHwA/giphy.gif" width="400" style="border-radius:20px; box-shadow: 0 0 50px #00ffff, 0 0 80px #ff00ff, 0 0 100px #ff0000;" />
 </p>
 
 ---
